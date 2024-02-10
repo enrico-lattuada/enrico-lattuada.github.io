@@ -34,7 +34,7 @@ sections:
         - title: Postdoctoral Researcher
           company: University of Vienna
           company_url: ''
-          company_logo: org-gc
+          company_logo: univie
           location: Vienna, AT
           date_start: '2022-03-01'
           date_end: ''
@@ -45,7 +45,7 @@ sections:
         - title: Postdoctoral Researcher
           company: Sapienza University of Rome
           company_url: ''
-          company_logo: org-x
+          company_logo: uniroma1
           location: Rome, IT
           date_start: '2018-12-01'
           date_end: '2022-02-28'
