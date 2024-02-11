@@ -68,5 +68,7 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides:
 
+# Comments (optional).
+#   Enable comments in the page.
 commentable: true
 ---
