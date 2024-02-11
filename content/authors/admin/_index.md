@@ -48,14 +48,46 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#skills:
-#  - name: Technical
-#    items:
-#      - name: Python
-#        description: ''
-#        percent: 80
-#        icon: python
-#        icon_pack: fab
+skills:
+  - name: 
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: python
+        icon_pack: fab
+      - name: Jupyter Notebook
+        description: ''
+        percent: 80
+        icon: book
+        icon_pack: fas
+      - name: GitHub
+        description: ''
+        percent: 70
+        icon: github
+        icon_pack: fab      
+  - name:
+    items:
+      - name: C++/CUDA
+        description: ''
+        percent: 70
+        icon: laptop-code
+        icon_pack: fas
+      - name: Ubuntu
+        description: ''
+        percent: 70
+        icon: ubuntu
+        icon_pack: fab
+      - name: Matlab
+        description:
+        percent: 60
+        icon: file-code
+        icon_pack: fas
+      - name: Coffee drinking
+        description: ''
+        percent: 100
+        icon: mug-saucer
+        icon_pack: fas 
 #      - name: Data Science
 #        description: ''
 #        percent: 100
