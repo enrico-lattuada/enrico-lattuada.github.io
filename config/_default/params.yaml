@@ -79,7 +79,7 @@ features:
   comment:
     provider: 'disqus'
     disqus:
-      shortname: 'enricolattuada'
+      shortname: 'enrico-lattuada'
       show_count: true
     commento:
       url: ''
