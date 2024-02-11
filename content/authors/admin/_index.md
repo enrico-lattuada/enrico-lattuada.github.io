@@ -49,7 +49,9 @@ education:
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-  - name: 
+  - name:
+    color: '#fdc500'
+    color_border: '#ffd374'
     items:
       - name: Python
         description: ''
@@ -67,6 +69,8 @@ skills:
         icon: github
         icon_pack: fab      
   - name:
+    color: '#fdc500'
+    color_border: '#ffd374'
     items:
       - name: C++/CUDA
         description: ''
