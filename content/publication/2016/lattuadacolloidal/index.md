@@ -68,5 +68,5 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides:
 
-comment: true
+commentable: true
 ---
