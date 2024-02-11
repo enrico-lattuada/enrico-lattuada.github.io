@@ -34,7 +34,9 @@ authors: [
   Fabio Giavazzi,
   Roberto Cerbino
 ]
-tags: []
+tags: [
+  Differential Dynamic Microscopy
+]
 
 # Is this a featured talk? (true/false)
 featured: false

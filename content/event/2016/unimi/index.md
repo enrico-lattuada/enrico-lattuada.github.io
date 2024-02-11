@@ -32,7 +32,9 @@ authors: [
   Stefano Buzzaccaro,
   Roberto Piazza
 ]
-tags: []
+tags: [
+  Sedimentation
+]
 
 # Is this a featured talk? (true/false)
 featured: false

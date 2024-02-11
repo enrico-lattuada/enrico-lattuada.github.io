@@ -33,7 +33,9 @@ authors: [
   Stefano Buzzaccaro,
   Roberto Piazza
 ]
-tags: []
+tags: [
+  Velocimetry
+]
 
 # Is this a featured talk? (true/false)
 featured: false

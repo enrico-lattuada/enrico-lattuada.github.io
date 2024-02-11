@@ -36,7 +36,10 @@ authors: [
   Roberto Piazza,
   Francesco Sciortino
 ]
-tags: []
+tags: [
+  DNA nanoparticles,
+  Self-assembly
+]
 
 # Is this a featured talk? (true/false)
 featured: false
