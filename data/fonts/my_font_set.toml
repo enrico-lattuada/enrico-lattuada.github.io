@@ -1,0 +1,29 @@
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+
+# To select a free web-font available from Google Fonts:
+# 
+# 1. Visit Google Fonts
+# 2. Click on each font you wish to use
+# 3. For each font, click + Select this style for each style you wish to use
+# 4. Click on the icon at the top right (View your selected families) to open the dialog box on the right
+# 5. Click on Embed
+# 6. Under <link>, copy the part of the URL starting from family= to &display=swap... (not included)
+#    and paste it as the google_fonts option in your new font theme
+#    - For example, if Google gives you
+#        <link href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Open+Sans&display=swap" rel="stylesheet">,
+#      set
+#        google_fonts = "family=B612+Mono&family=Open+Sans"
+# 7. Under CSS rules to specify families in Google Font’s dialog, copy the font name and paste it as one of
+#    the fonts in your font theme
+#    - For example, given font-family: 'B612 Mono', monospace;, copy B612 Mono
+
+google_fonts = "family=Manrope:wght@200..800&family=Roboto+Mono&family=Roboto:wght@400;700"
+
+# Font families
+heading_font = "Manrope"
+body_font = "Roboto"
+nav_font = "Roboto"
+mono_font = "Roboto Mono"
