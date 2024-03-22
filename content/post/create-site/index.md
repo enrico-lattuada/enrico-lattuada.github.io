@@ -147,7 +147,7 @@ Use GitHub Desktop to clone the repository containing the website source.
 You will now be able to build and run the website locally on your computer, without deploying it to the web.
 Use your PowerShell terminal and run the following command:
 
-```bash
+```powershell
 cd path\to\your\repository
 ```
 
