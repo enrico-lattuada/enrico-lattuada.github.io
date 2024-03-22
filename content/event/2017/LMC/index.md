@@ -1,5 +1,5 @@
 ---
-title: 'Can colloidal swarms settle faster than isolated particles?'
+title: 'Can colloidal swarms settle faster than isolated particles? (LMC)'
 
 event: 10th Liquid Matter Conference
 event_url: http://liquids2017.ijs.si/

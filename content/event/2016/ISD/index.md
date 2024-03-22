@@ -1,5 +1,5 @@
 ---
-title: 'Can colloidal swarms settle faster than isolated particles?'
+title: 'Can colloidal swarms settle faster than isolated particles? (iSoDays)'
 
 event: 2nd Italian Soft Days
 event_url: https://sites.google.com/site/italiansoftdays/home/previous-editions/2016?authuser=0

@@ -1,5 +1,5 @@
 ---
-title: 'Can colloidal swarms settle faster than isolated particles?'
+title: 'Can colloidal swarms settle faster than isolated particles? (Unimi)'
 
 event: 3rd Workshop of the Complex Systems group
 event_url: 
