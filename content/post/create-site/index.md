@@ -91,7 +91,7 @@ However, you might want to check how it looks **locally** before you publish it.
 Download and install [Go](https://go.dev/doc/install).
 After installation, test it from the PowerShell by running the command:
 
-```console
+```bash
 go version
 ```
 
@@ -125,7 +125,7 @@ Finally, add it to the `Path` variable (see section above for instructions).
 
 Confirm the installation by running this command from the PowerShell:
 
-```console
+```bash
 hugo version
 ```
 
@@ -147,21 +147,21 @@ Use GitHub Desktop to clone the repository containing the website source.
 You will now be able to build and run the website locally on your computer, without deploying it to the web.
 Use your PowerShell terminal and run the following command:
 
-```console
+```bash
 cd path\to\your\repository
 ```
 
 where `path\to\your\repository` is the path to your repository.
 If you cloned the repository using GitHub Desktop, this will probably be in
 
-```console
+```bash
 cd Documents\GitHub\<your-repository-name>
 ```
 where `<your-repository-name>` is the name you chose for your repository.
 
 You will be able to build and run your website locally by running the following command:
 
-```console
+```bash
 hugo server -D
 ```
 
