@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Research Fellow
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -156,6 +156,6 @@ social:
 highlight_name: true
 ---
 
-I am a Lise Meitner postdoc research fellow working in the Group of Roberto Cerbino at the Faculty of Physics of the University of Vienna.
+I am a senior postdoc working in the Group of Roberto Cerbino at the Faculty of Physics of the University of Vienna.
 My research interests include the investigation of the structure and dynamics of complex colloidal suspensions using advanced optical techniques and the development of high-performance codes for experiments analysis (using Python and C++/CUDA).
 {style="text-align: justify;"}
