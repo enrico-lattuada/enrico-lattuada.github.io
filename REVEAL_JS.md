@@ -23,9 +23,9 @@ cp -r reveal.js/plugin .reveal.js/plugin
 
 Create a dedicated folder for each presentation.
 Create a new ``index.html`` file (or copy one of the examples from the reveal.js repository).
-Link the index.html file from the post by adding its path (from the static directory) to the ``url_slides`` field.
+Link the ``index.html`` file from the post by adding its path (from the static directory) to the ``url_slides`` field.
 For instance, to link slides defined in ``static/slides/example/index.html``, do
 
 ```
-url_slides: "slides/example/index.html"
+url_slides: "slides/example/"
 ```
