@@ -91,7 +91,7 @@
                 </section>
 
                 <section>
-                    The aim of DDM is to calculate the structure function of their 2D Fourier transform \(I(\mathbf{q}, t)\):
+                    The aim of DDM is to calculate the structure function of the 2D Fourier transform \(I(\mathbf{q}, t)\) of the images:
 
                     \[
                     D(\mathbf{q}, \Delta t) = \langle \lvert I(\mathbf{q}, t+\Delta t) - I(\mathbf{q}, t) \rvert^2 \rangle_t
@@ -112,17 +112,17 @@
                     <h3>Motivation</h3>
 
                     <p>
-                        What is the motivation behind FastDDM?
+                        What are the current drawbacks of most DDM codes?
                     </p>
 
                     <ul>
 						<li>No open-source and user-friendly library</li>
-						<li>No unified and collaborative development platform</li>
+						<li>No unified collaborative development platform</li>
 						<li>Slow speed of analysis (tens of minutes to hours)</li>
 					</ul>
 
                     <p class="fragment" style="color:skyblue">
-                        <b>FastDDM brings all these features!</b>
+                        <b>FastDDM solves all these issues!</b>
                     </p>
                 </section>
 
@@ -135,13 +135,13 @@
                     </p>
 
                     <pre data-id="code-animation"><code class="hljs python" data-trim data-line-numbers="1-2|4-5|7-8"><script type="text/template">
-# import the package ...
+# importing the package ...
 import fastddm as fd
 
-# ... read the images ...
+# ... reading the images ...
 images = fd.read_images('my_file.tif')
 
-# ... and compute the structure function!
+# ... and computing the structure function!
 dqt = fd.ddm(images, lags=range(1, len(images)))
 					</script></code></pre>
                 </section>
@@ -182,14 +182,18 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
                         We also implemented two modes:
 
                         <ul>
-                            <li>The classic, difference scheme ("diff")</li>
-                            <li>The fast mode, which takes advantage of FFT to speed up the calculation ("fft")</li>
+                            <li>The original, difference scheme</li>
+                            <li>The fast mode, which takes advantage of FFT to speed up the calculation*</li>
                         </ul>
+                    </p>
+
+                    <p>
+                        <small>* Originally introduced in <a href="https://link.springer.com/article/10.1140/epje/s10189-021-00146-2">Norouzisadeh et Al., <em>Eur. Phys. J. E</em> <b>44</b> (2021), 146</a></small>
                     </p>
                 </section>
 
                 <section>
-                    <h3>It's <i>fast</i></h3>
+                    <h3>It's <em>fast</em></h3>
 
                     <img src="media/performance.png" width="500">
 
