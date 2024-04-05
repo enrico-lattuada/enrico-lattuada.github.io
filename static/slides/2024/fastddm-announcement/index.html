@@ -15,7 +15,7 @@
 
 		<link rel="stylesheet" href="../../.reveal.js-5.0.5/dist/reset.css">
 		<link rel="stylesheet" href="../../.reveal.js-5.0.5/dist/reveal.css">
-		<link rel="stylesheet" href="../../.reveal.js-5.0.5/dist/theme/sky.css">
+		<link rel="stylesheet" href="../../.reveal.js-5.0.5/dist/theme/night.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../../.reveal.js-5.0.5/plugin/highlight/monokai.css">
@@ -48,7 +48,7 @@
                     Everything starts from a sequence of microscopy images \(i(\mathbf{x}, t)\).
                     
                     <p>
-                        <img src="media/microscopy-image.png" width="300">
+                        <img class="r-frame" src="media/microscopy-image.png" width="300">
                     </p>
                 </section>
 
@@ -60,13 +60,13 @@
 
                     <p>
                         <span class="fragment">
-                            <img src="media/difference-1.png" width="300">
+                            <img class="r-frame" src="media/difference-1.png" width="300">
                         </span>
                         <span class="fragment">
-                            <img src="media/difference-2.png" width="300">
+                            <img class="r-frame" src="media/difference-2.png" width="300">
                         </span>
                         <span class="fragment">
-                            <img src="media/difference-3.png" width="300">
+                            <img class="r-frame" src="media/difference-3.png" width="300">
                         </span>
                     </p>
 
@@ -74,18 +74,18 @@
 
                 <section>
                     <p>
-                        A 2D Fourier transform allows to quantify the growth of the signal of the image difference at different length scales.
+                        A 2D Fourier transform allows to quantify the growth of the signal of the image difference at different spatial scales.
                     </p>
 
                     <p>
                         <span class="fragment">
-                            <img src="media/dqt-1.png" width="300">
+                            <img class="r-frame" src="media/dqt-1.png" width="300">
                         </span>
                         <span class="fragment">
-                            <img src="media/dqt-2.png" width="300">
+                            <img class="r-frame" src="media/dqt-2.png" width="300">
                         </span>
                         <span class="fragment">
-                            <img src="media/dqt-3.png" width="300">
+                            <img class="r-frame" src="media/dqt-3.png" width="300">
                         </span>
                     </p>
                 </section>
@@ -121,8 +121,8 @@
 						<li>Slow speed of analysis (tens of minutes to hours)</li>
 					</ul>
 
-                    <p class="fragment">
-                        FastDDM brings all these features!
+                    <p class="fragment" style="color:skyblue">
+                        <b>FastDDM brings all these features!</b>
                     </p>
                 </section>
 
@@ -159,11 +159,24 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
                 </section>
 
                 <section>
-                    <h3>It's <i>fast</i></h3>
+                    <h3>Cores</h3>
 
                     <p>
-                        FastDDM comes with different core options: plain Python, C++, and CUDA (in order of increasing speed).
+                        FastDDM allows you to harness the power of CPU and GPU. It comes with different core options:
+
+                        <ul>
+                            <li>plain Python</li>
+                            <li>C++</li>
+                            <li>CUDA</li>
+                        </ul>
                     </p>
+                    <p>
+                        (in order of increasing speed).
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Modes</h3>
 
                     <p>
                         We also implemented two modes:
@@ -176,7 +189,7 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
                 </section>
 
                 <section>
-                    <h3>Performance</h3>
+                    <h3>It's <i>fast</i></h3>
 
                     <img src="media/performance.png" width="500">
 
@@ -188,6 +201,16 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
                 </section>
 
                 <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+                </section>
+
+                <section>
+                    <h3>Thank you!</h3>
+                    <p>
+						- <a href="https://github.com/somexlab/fastddm">Source code</a> <br>
+                        - <a href="https://github.com/somexlab/fastddm-tutorials">Tutorials</a> <br>
+						- <a href="https://fastddm.readthedocs.io/en/stable">Documentation</a>
+
+					</p>
                 </section>
 			</div>
 
