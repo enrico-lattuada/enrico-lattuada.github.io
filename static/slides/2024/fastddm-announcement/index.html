@@ -26,7 +26,7 @@
 
 			<div class="slides">
 
-				<section>
+				<section data-autoslide="4000">
                     <h1>Meet FastDDM</h1>
                 </section>
 
@@ -36,7 +36,7 @@
                     </p>
                 </section>
 
-                <section>
+                <section data-autoslide="7000">
                     <h3>What is Differential Dynamic Microscopy?</h3>
 
                     <p>
@@ -47,7 +47,7 @@
                     </p>
                 </section>
 
-                <section>
+                <section data-autoslide="4000">
                     Everything starts from a sequence of microscopy images \(i(\mathbf{x}, t)\).
                     
                     <p>
@@ -62,13 +62,13 @@
                     </p>
 
                     <p>
-                        <span class="fragment">
+                        <span class="fragment" data-autoslide="1500">
                             <img class="r-frame" src="media/difference-1.png" width="300">
                         </span>
-                        <span class="fragment">
+                        <span class="fragment" data-autoslide="1500">
                             <img class="r-frame" src="media/difference-2.png" width="300">
                         </span>
-                        <span class="fragment">
+                        <span class="fragment" data-autoslide="3000">
                             <img class="r-frame" src="media/difference-3.png" width="300">
                         </span>
                     </p>
@@ -81,13 +81,13 @@
                     </p>
 
                     <p>
-                        <span class="fragment">
+                        <span class="fragment" data-autoslide="1500">
                             <img class="r-frame" src="media/dqt-1.png" width="300">
                         </span>
-                        <span class="fragment">
+                        <span class="fragment" data-autoslide="1500">
                             <img class="r-frame" src="media/dqt-2.png" width="300">
                         </span>
-                        <span class="fragment">
+                        <span class="fragment" data-autoslide="3000">
                             <img class="r-frame" src="media/dqt-3.png" width="300">
                         </span>
                     </p>
@@ -101,7 +101,7 @@
                     \]
                 </section>
 
-                <section>
+                <section data-autoslide="8000">
                     <p>
                         The structure function stands as a foundation tool for unveiling spatial correlations and dynamic features within images.
                     </p>
@@ -111,7 +111,7 @@
                     </p>
                 </section>
 
-                <section>
+                <section data-autoslide="7000">
                     <h3>Motivation</h3>
 
                     <p>
@@ -124,7 +124,7 @@
 						<li>Slow speed of analysis (tens of minutes to hours)</li>
 					</ul>
 
-                    <p class="fragment" style="color:skyblue">
+                    <p class="fragment" style="color:skyblue" data-autoslide="2500">
                         <b>FastDDM solves all these issues!</b>
                     </p>
                 </section>
@@ -137,7 +137,7 @@
                         Computing the structure function is as simple as
                     </p>
 
-                    <pre data-id="code-animation"><code class="hljs python" data-trim data-line-numbers="1-2|4-5|7-8"><script type="text/template">
+                    <pre data-id="code-animation"><code class="hljs python" data-trim data-line-numbers="1-2|4-5|7-8" data-autoslide="2500"><script type="text/template">
 # importing the package ...
 import fastddm as fd
 
@@ -149,7 +149,7 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
 					</script></code></pre>
                 </section>
 
-                <section>
+                <section data-autoslide="7000">
                     <h3>Collaborative development</h3>
 
                     <p>
@@ -195,7 +195,7 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
                     </p>
                 </section>
 
-                <section>
+                <section data-autoslide="7000">
                     <h3>It's <em>fast</em></h3>
 
                     <img src="media/performance.png" width="500">
@@ -206,10 +206,10 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
                         </small>
                     </p>
                 </section>
-
+<!--
                 <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
                 </section>
-
+            -->
                 <section>
                     <h3>Thank you!</h3>
                     <p>
@@ -249,7 +249,10 @@ dqt = fd.ddm(images, lags=range(1, len(images)))
 				},
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax2 ]
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax2 ],
+
+                autoSlide: 6000,
+                loop: false,
 			});
 		</script>
 	</body>
