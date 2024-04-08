@@ -9,13 +9,13 @@ summary: We are thrilled to announce the release of FastDDM, a Python package de
 projects: []
 
 # Date published
-date: '2024-04-04T00:00:00Z'
+date: '2024-04-08T00:00:00Z'
 
 # Date updated
-lastmod: '2024-04-04T00:00:00Z'
+lastmod: '2024-04-08T00:00:00Z'
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: false
@@ -51,8 +51,12 @@ The core of FastDDM lies in its ability to perform DDM analysis, a technique tha
 
 One of the standout features of FastDDM is its user-friendly interface. The package has been designed with the end user in mind, ensuring that even those with minimal programming experience can navigate and utilize its features effectively. Moreover, the inclusion of C++ and CUDA support opens up possibilities for high-performance computing, making FastDDM suitable for handling computationally intensive tasks.
 
-What’s more? FastDDM also comes with comprehensive [documentation](https://fastddm.readthedocs.io/en/stable/) and [tutorials](https://github.com/somexlab/fastddm-tutorials), guiding users through every step of the analysis process. Whether you are a seasoned researcher or a student who’s just starting, FastDDM provides the resources you need to succeed in your microscopy analysis endeavors.
+What’s more? FastDDM also comes with comprehensive [documentation](https://fastddm.readthedocs.io/en/stable/) and [tutorials](https://github.com/somexlab/fastddm-tutorials)*, guiding users through every step of the analysis process. Whether you are a seasoned researcher or a student who’s just starting, FastDDM provides the resources you need to succeed in your microscopy analysis endeavors.
 
-We invite you to try out FastDDM and to collaborate on its development. Stay tuned for updates, tutorials, and support as we continue to enhance and expand the capabilities of this package.
+We invite you to try out FastDDM and to collaborate to its development. Stay tuned for updates, tutorials, and support as we continue to enhance and expand the capabilities of this package.
 
 For more information and to get started with FastDDM, visit our [GitHub repository](https://github.com/somexlab/fastddm) and the package [documentation](https://fastddm.readthedocs.io/en/stable/)!
+
+{{% callout note %}}
+\* Tutorial notebooks' repository will be public after the publication of the tutorial paper.
+{{% /callout %}}
