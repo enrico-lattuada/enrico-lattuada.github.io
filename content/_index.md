@@ -23,13 +23,21 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Scientific Python Developer
+          company: Zuru Tech
+          company_url: 'https://zuru.tech'
+          company_logo: zuru
+          location: Modena, IT
+          date_start: '2024-09-01'
+          date_end: ''
+          # description:
         - title: Postdoctoral Researcher
           company: University of Vienna
           company_url: 'https://univie.ac.at'
           company_logo: univie
           location: Vienna, AT
           date_start: '2022-03-01'
-          date_end: ''
+          date_end: '2024-08-31'
           description: |2-
               * Experimental investigation and analysis of non-equilibrium effects in sedimentation
               * Development of fastDDM to accelerate differential dynamic microscopy analysis

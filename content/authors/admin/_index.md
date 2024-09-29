@@ -17,21 +17,21 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Postdoctoral Researcher
+role: Scientific Python Developer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Vienna
-    url: https://www.univie.ac.at/
+  - name: Zuru Tech Italy
+    url: https://zuru.tech
 
 # Short bio (displayed in user profile at end of posts)
-bio: Investigating the structure and dynamics of colloidal systems using optical techniques.
+bio: Tech explorer passionate about Python, C++, and CUDA.
 
 # Interests to show in About widget
 interests:
-  - Advanced optical techniques applied to soft matter
   - High-performance computing with Python, C++, and CUDA
   - Structure, dynamics, self-assembly, and phase-separation in complex fluids
+  - Advanced optical techniques applied to soft matter
 
 # Education to show in About widget
 education:
@@ -130,12 +130,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:lattuada.enrico@gmail.com'
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=AWGMgbYAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/enrico-lattuada
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=AWGMgbYAAAAJ
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/enricolattuada/
@@ -156,6 +156,8 @@ social:
 highlight_name: true
 ---
 
-I am a senior postdoc working in the Group of Roberto Cerbino at the Faculty of Physics of the University of Vienna.
-My research interests include the investigation of the structure and dynamics of complex colloidal suspensions using advanced optical techniques and the development of high-performance codes for experiments analysis (using Python and C++/CUDA).
+I am a Scientific Python Developer working at Zuru Tech.
+
+I previously worked as a postdoctoral researcher in the Group of Roberto Cerbino at the Faculty of Physics of the University of Vienna, and in the group of Francesco Sciortino at the Physics Department of the University of Rome La Sapienza.
+My academic research interests include the investigation of the structure and dynamics of complex colloidal suspensions using advanced optical techniques and the development of high-performance codes for experiments analysis (using Python and C++/CUDA).
 {style="text-align: justify;"}
