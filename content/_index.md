@@ -26,7 +26,7 @@ sections:
         - title: Scientific Python Developer
           company: Zuru Tech
           company_url: 'https://zuru.tech'
-          company_logo: zuru
+          company_logo: zuru.png
           location: Modena, IT
           date_start: '2024-09-01'
           date_end: ''
