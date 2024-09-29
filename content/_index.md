@@ -177,20 +177,20 @@ sections:
       phone: +39 346 2292 066
 #      appointment_url: 'https://calendly.com'
       address:
-        street: Boltzmanngasse, 5
-        city: Vienna
+        street: Via E. Rainusso, 144
+        city: Modena
         region:
-        postcode: '1090'
-        country: Austria
-        country_code: AT
+        postcode: '41124'
+        country: Italy
+        country_code: IT
       directions: 
 #      office_hours:
 #        - 'Monday 10:00 to 13:00'
 #        - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '48.2216'
-        longitude: '16.3563'  
+        latitude: '44.6477'
+        longitude: '10.9151'  
 #      contact_links:
 #        - icon: twitter
 #          icon_pack: fab
