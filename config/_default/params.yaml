@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: blue
 
 # SEO
 marketing:
@@ -31,16 +31,23 @@ header:
   navbar:
     enable: true
     blox: "navbar"
+    align: "right"
     fixed_to_top: true
-    show_search: true
-    show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Enrico Lattuada"
+      filename: ""
+    button:
+      enable: false
+      text: ""
+      url: ""
+    show_theme_chooser: true
+    show_search: true
+    highlight_active_link: false
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Enrico Lattuada. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -55,6 +62,6 @@ locale:
 # Site features
 features:
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
