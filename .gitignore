@@ -1,13 +1,9 @@
-# IDEs
-.idea/
-
 # Hugo
-resources/
 public/
-jsconfig.json
-node_modules/
-go.sum
+resources/
 .hugo_build.lock
+go.sum
+hugo_stats.json
 
-# Misc
+# Mics
 **/.DS_Store
