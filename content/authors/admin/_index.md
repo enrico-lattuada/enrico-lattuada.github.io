@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Enrico Lattuada
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Enrico
+last_name: Lattuada
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: #☕️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,92 +20,102 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Scientific Python Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Zuru Tech Italy
+    url: https://zuru.tech/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+  - icon: envelope
+    url: 'mailto:lattuada.enrico@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/enricolattuada
+  - icon: brands/github
+    url: https://github.com/enrico-lattuada
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://scholar.google.co.uk/citations?user=AWGMgbYAAAAJ
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - High-performance computing with Python, C++, and CUDA
+  - Structure, dynamics, self-assembly, and phase-separation in complex fluids
+  - Advanced optical techniques applied to soft matter
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  - area: PhD in Industrial Chemistry and Chemical Engineering
+    institution: Polytechnic of Milan
+    date_start: 2015-11-01
+    date_end: 2018-10-31
+    #summary:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc in Nuclear Engineering
+    institution: Polytechnic of Milan
+    date_start: 2012-10-01
+    date_end: 2015-04-29
     summary: |
-      GPA: 3.8/4.0
+      GPA: xx/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    #  Courses included:
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    button:
+      text: 'Read Thesis'
+      url: 'https://example.com'
+  - area: BSc in Energy Engineering
+    institution: Polytechnic of Milan
+    date_start: 2009-09-01
+    date_end: 2012-09-30
     summary: |
-      GPA: 3.4/4.0
+      GPA: xx/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  Courses included:
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    #  - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Scientific Python Developer
+    company_name: Zuru Tech
+    company_url: 'https://zuru.tech/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2024-09-02
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+#      Responsibilities include:
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Postdoctoral Researcher
+    company_name: University of Vienna
+    company_url: https://univie.ac.at/en/
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-03-01
+    date_end: 2024-08-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Contributed to the establishment of two laboratories within the group, specializing in Microscopy/Optics and Chemistry.
+      - Managed and conducted experimental investigation of non‑equilibrium effects in sedimentation, measuring multiscale dynamics of samples from microscopy videos with Fourier Trasformed image correlation analysis (Differential Dynamic Microscopy).
+      - Boosted group efficiency by accelerating image analysis using GPU‑based Fast Fourier Transform, cutting down analysis time from hours to seconds.
+  - position: Postdoctoral Researcher
+    company_name: University of Rome La Sapienza
+    company_url: https://uniroma1.it/en/
+    company_logo: ''
+    date_start: 2018-12-01
+    date_end: 2022-02-28
+    summary: |
+      - Engineered a blended scattering/imaging setup for spatially‑resolved dynamics measurement of colloidal samples through image correlation analysis (Photon Correlation Imaging).
+      - Developed DNA nanostar gels for biomedical applications and characterized their properties using advanced optical and microscopy techniques.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -183,4 +193,6 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Scientific Python Developer working at Zuru Tech.
+
+I previously worked as a postdoctoral researcher in the Group of Roberto Cerbino at the Faculty of Physics of the University of Vienna, and in the group of Francesco Sciortino at the Physics Department of the University of Rome La Sapienza. My academic research interests include the investigation of the structure and dynamics of complex colloidal suspensions using advanced optical techniques and the development of high-performance codes for experiments analysis (using Python and C++/CUDA).
