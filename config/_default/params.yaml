@@ -61,6 +61,9 @@ locale:
 
 # Site features
 features:
+  syntax_highlighting:
+    theme_light: catppuccin-latte
+    theme_dark: catppuccin-frappe
   math:
     enable: true
   privacy_pack:
