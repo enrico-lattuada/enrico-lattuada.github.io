@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: background.svg #stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
@@ -52,7 +52,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 4
   - block: collection
     content:
       title: Recent Publications
