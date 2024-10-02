@@ -49,6 +49,7 @@ markup:
   _merge: deep
   highlight:
     lineNos: false
+    noClasses: false
 security:
   _merge: deep
 sitemap:

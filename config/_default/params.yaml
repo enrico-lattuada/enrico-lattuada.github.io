@@ -61,7 +61,7 @@ locale:
 
 # Site features
 features:
-  syntax_highlighting:
+  syntax_highlighter:
     theme_light: catppuccin-latte
     theme_dark: catppuccin-frappe
   math:
