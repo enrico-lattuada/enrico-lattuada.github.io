@@ -89,7 +89,7 @@ work:
   - position: Scientific Python Developer
     company_name: Zuru Tech
     company_url: 'https://zuru.tech/'
-    company_logo: ''
+    company_logo: zuru
     date_start: 2024-09-02
     date_end: ''
     summary: |2-
