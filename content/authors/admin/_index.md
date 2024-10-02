@@ -100,7 +100,7 @@ work:
   - position: Postdoctoral Researcher
     company_name: University of Vienna
     company_url: https://univie.ac.at/en/
-    company_logo: ''
+    company_logo: univie
     date_start: 2022-03-01
     date_end: 2024-08-31
     summary: |
@@ -110,7 +110,7 @@ work:
   - position: Postdoctoral Researcher
     company_name: University of Rome La Sapienza
     company_url: https://uniroma1.it/en/
-    company_logo: ''
+    company_logo: uniroma1
     date_start: 2018-12-01
     date_end: 2022-02-28
     summary: |
