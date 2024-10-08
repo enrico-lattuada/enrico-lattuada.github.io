@@ -20,7 +20,7 @@ name = "Minimal"
 #    the fonts in your font theme
 #    - For example, given font-family: 'B612 Mono', monospace;, copy B612 Mono
 
-google_fonts = "family=Manrope:wght@200..800&family=Roboto+Mono&family=Roboto:wght@400;700"
+google_fonts = "family=Manrope:wght@200..800&family=Roboto+Mono&family=Roboto:wght@300;700"
 
 # Font families
 heading_font = "Manrope"

@@ -64,8 +64,8 @@ locale:
 
 features:
   syntax_highlighter:
-    theme_light: monokailight
-    theme_dark: dracula
+    theme_light: catppuccin-latte
+    theme_dark: catppuccin-frappe
   math:
     enable: true
   privacy_pack:
