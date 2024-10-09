@@ -25,7 +25,7 @@ organizations:
     url: https://zuru.tech
 
 # Short bio (displayed in user profile at end of posts)
-bio: Tech explorer passionate about Python, C++, and CUDA.
+bio: "" #Tech explorer passionate about Python, C++, and CUDA.
 
 # Interests to show in About widget
 interests:
@@ -133,12 +133,12 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/enrico-lattuada
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=AWGMgbYAAAAJ
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/enricolattuada/
+  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: fas
+    link: https://scholar.google.co.uk/citations?user=AWGMgbYAAAAJ
 #  - icon: twitter
 #    icon_pack: fab
 #    link: https://twitter.com/GeorgeCushen
