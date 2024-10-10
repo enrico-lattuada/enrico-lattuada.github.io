@@ -1,23 +1,52 @@
 ---
-title: Protecting NumPy arrays in dataclasses
-date: 2024-10-09
-math: true
+title: Protecting NumPy arrays within dataclasses
+subtitle: Guarding your data with Python sorcery
+
+summary: Explore how to fortify NumPy arrays within dataclasses using Python's property sorcery to prevent unauthorized modifications and maintain data integrity
+
+projects: []
+
+date: '2024-10-10T00:00:00Z'
+
+lastmod: '2024-10-10T00:00:00Z'
+
+draft: true
+
+featured: false
+
+# Featured image
+# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 # image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+#   focal_point: ''
 #   placement: 2
-#  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+#   preview_only: false
+
+url_slides: ''
+
+authors:
+  - admin
+  
+tags:
+  - Python
+
+categories:
+  - tutorials
+
+commentable: true
 ---
 
-Picture this situation: you have a scientific Python software and you want to store your results and data as NumPy arrays in a dataclass.
-You might want to keep it under lock and key to prevent meddling hands from messing with it.
-But how do you truly protect your array from prying eyes and rogue modifications?
+Imagine this scenario: you're a Python adept working on a scientific application where safeguarding data, stored as NumPy arrays within dataclasses, is paramount.
+How can you ensure the sanctity of your data from potential meddling and unwarranted modifications?
 
 {{% callout note %}}
-I here you. We are All Consenting Adults in Python. But you might want to prevent involuntary modifications of the array. In the end, however, if the users really wants to change the data, there is nothing you can do to stop them. So, don't be overly protective unless you see a strong reason to.
+I here you. We are All Consenting Adults in Python. While Python embodies transparency, defenses can be erected to discourage inadvertent array alterations. However, if the users really wants to change the data, there is nothing you can do to stop them. So tread the line of protection judiciously.
 {{% /callout %}}
 
-## The Dilemma
+## The conundrum
 
-So here's the scoop: you've got your `dataclass` with a NumPy array snugly nested inside.
+Here's the situation: nested snugly within your `dataclass` lies a NumPy array.
+Consider the risk this presents:
 
 ```python
 from dataclasses import dataclass
@@ -27,31 +56,31 @@ import numpy as np
 class SuperDuperResults:
     my_array: np.ndarray
 
-# long and tedious calculations...
+# Extensive calculations unfold...
 my_superduper_results = SuperDuperResults(
-    my_array=np.array([1, 2, 3, 4, 5])
-    )
+    np.array([1, 2, 3, 4, 5])
+)
 
 print(my_superduper_results.my_array)
 
 >>> array([1, 2, 3, 4, 5])
 ```
 
-By default, the `my_array` property of the `SuperDuperResults` data class is accessible and modifiable by external code, which can lead to unintended changes and potentially break the encapsulation of the class.
+By default, the `my_array` attribute of the `SuperDuperResults` dataclass is vulnerable to external modifications, potentionally jeopardizing the class' encapsulation.
 
 ```python
-# a less interesting result
+# A less favourable outcome emerges
 my_superduper_results.my_array = np.zeros(5)
 print(my_superduper_results.my_array)
 
 >>> array([0., 0., 0., 0., 0.])
 ```
 
-You chose... poorly.
+A decision misjudged.
 
-## Fortifying your fortress
+## Enhancing your defence
 
-Fear not, valiant coder! Using Python's property sorcery you can shield your NumPy array from unwanted meddling and keep it as snug as a bug in a rug within your data class confines.
+Fear not, intrepid developer! Employing Python's property sorcery, you can fortify your NumPy array against unwarranted meddling, maintaining its integrity within the dataclass.
 
 ```python
 @dataclass
@@ -62,14 +91,14 @@ class SuperDuperResults:
     def my_array(self):
         return self._my_array
 
-# again, some long and tedious calculations...
+# Again, extensive calculations...
 my_superduper_results = SuperDuperResults(
-    my_array=np.array([1, 2, 3, 4, 5])
-    )
+    np.array([1, 2, 3, 4, 5])
+)
 ```
 
-This nifty trick makes your array read-only from the outside, lending it an air of exclusivity that mere mortals dare not breach.
-In fact, if a user tries to overwrite the array, an exception will be raised.
+This nifty trick renders your array impervious to external alterations, lending it an air of exclusivity that mere mortals dare not breach.
+Any attempt to overwrite the array will thus trigger an exception.
 
 ```python
 my_superduper_results.my_array = np.zeros(5)
@@ -77,8 +106,7 @@ my_superduper_results.my_array = np.zeros(5)
 >>> AttributeError: property 'my_array' of 'SuperDuperResults' object has no setter
 ```
 
-But hey, there's a catch - direct modification of the array's elements is still fair game.
-Sneaky, right?
+Yet, a caveat remains - direct element modifications still elude absolute protection.
 
 ```python
 my_superduper_results.my_array[0] = 100
@@ -86,10 +114,9 @@ my_superduper_results.my_array[0] = 100
 >>> array([100, 2, 3, 4, 5])
 ```
 
-## Locking down write access
+## Securing write access
 
-To truly lock the gates and preventing any unauthorized scribbling on the array, wield the `writeable` flag like a mighty sword.
-By setting it to `False`, any attempts to write to the array will be met with a ersounding _"Thou shalt not pass!"_ in the form of a `ValueError`.
+For impervious fortification against unauthorized alterations, wield the `writeable` flag as a potent safeguard. Setting this flag to `False` erects an impenetrable barrier, thwarting any attempts at unauthorized array modifications.
 
 ```python
 @dataclass
@@ -102,20 +129,19 @@ class SuperDuperResults:
         array_view.flags.writeable = False
         return array_view
 
-# once more, some long and tedious calculations...
+# Once more, into the computing abyss...
 my_superduper_results = SuperDuperResults(
-    my_array=np.array([1, 2, 3, 4, 5])
-    )
+    np.array([1, 2, 3, 4, 5])
+)
 
-# sneaky user trying to touch what should not be touched
+# A sly user endeavors to tamper with the untamperable
 my_superduper_results.my_array[0] = 100
 
 >>> ValueError: assignment destination is read-only
 ```
 
-## A cautionary tale
+## A final thought
 
-Before you ride off into the sunset, remember: the quest for privacy and encapsulation isn't limited to NumPy arrays alone.
-Lists and other modifiable sequence objects also crave the protection you so valiantly provide.
+Before steering into the horizon, ponder over this: the pursuit of privacy and encapsulation extends beyond NumPy arrays. Lists and other mutable sequence objects, too, covet the shield you valiantly provide.
 
-So go forth, brave coder, and may your data remain forever secure!
+So march forward, intrepid coder, and may your data remain eternally safeguarded!
