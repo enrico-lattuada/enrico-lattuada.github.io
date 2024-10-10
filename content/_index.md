@@ -95,7 +95,10 @@ sections:
     content:
       title: Recent Posts
       subtitle: ''
-      text: ''
+      text: |-
+        {{% callout note %}}
+        See [other posts](./post/).
+        {{% /callout %}}
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
